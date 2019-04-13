@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="google" value="notranslate">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>JIMU Blockly Course</title>
+  <style>
+    .return-button {
+        width: 126px;
+        height: 45px;
+        position: absolute;
+        z-index: 1000;
+        background-color: #fc3;
+    }
+    </style>
+  <!-- 由block目录下的core生成 -->
+  <script src="../blockly_compressed.js"></script>
+  <!-- 由block目录下的blocks生成 -->
+  <script src="../blocks_compressed.js"></script>
+  <!-- 由block目录下的generators/javascript生成 -->
+  <script src="../javascript_compressed.js"></script>
+</head>
+<body>
+    <div class="return-button"></div>
+    <!--  工作空间 -->
+    <div class="workspace" id="content_blocks"></div>
+</body>
+<script src="./lib/js/acorn_interpreter.js"></script>
+<script src="../course.bundle.js"></script>
+</html>
